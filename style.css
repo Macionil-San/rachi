@@ -1,0 +1,851 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700; 1.900&display=swap');
+
+
+header{
+    height: 50px;
+    width: 100%;
+}
+
+.container-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.sec1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.sec1{
+    transform: translateX(100%);
+}
+
+.nav-style {
+    display: flex;
+    width: 500px;
+
+}
+
+.nav-style>ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.nav-style>ul>li>a{
+    text-decoration: none;
+    text-align: center;
+    font-family: "Sora", sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    color: #6E7275;
+    transition: linear .4s all;
+
+}
+
+.rachi{
+
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* sec2_______________________________________________________________ */
+
+.sec2{
+
+    background-color: #EFF8FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 510px;
+
+    justify-content: space-between;
+    flex-direction: column;
+
+
+}
+
+.sec2Content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+
+}
+
+.art1 {
+    width: 450;
+    height: 300px;
+
+}
+
+.art1>h1 {
+
+    font-size: 38px;
+
+    font-family: "Sora", sans-serif;
+    color: #293145;
+
+}
+
+.sec2Content>img{
+
+    height: 420px;
+}
+
+
+.botao1{
+
+    background-color: #0F9AFE;
+    color: white;
+     font-family: "Inter", sans-serif;
+     font-size: 12px;
+     height: 35px;
+     width: 120px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 20px;
+     box-shadow: 3px 3px 2px rgba(0, 0, 0,0.135);
+     margin-top: 40px;
+     list-style-type: none;
+
+}
+
+/* sec3________________________________________________________________________ */
+
+
+.sec31{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    margin-top: 30px;
+    width: 100%;
+
+}
+
+.sec31>.art2{
+
+    font-size: 32px;
+    font-family: "Sora", sans-serif;
+    color: #293145;
+
+}
+
+
+
+.sec3{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    height: 300px;
+}
+
+.sec3>.div1{
+
+    height: 120px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.sec3>h5,b{
+
+    font-size: 18px;
+    font-family: "Sora", sans-serif;
+    color: #293145;
+
+}
+
+.sec3>.div1>p{
+
+    font-size: 13px;
+    color:#6E7275;
+    font-family: "Inter", sans-serif;
+   text-align: center;
+
+}
+
+.se3>.div1>img{
+
+    width: 25px;
+
+}
+
+/* div2___________________________ */
+
+.sec3>.div2{
+
+    height: 120px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.sec3>h5,b{
+
+    font-size: 18px;
+    font-family: "Sora", sans-serif;
+    color: #293145;
+
+}
+
+.sec3>.div2>p{
+
+    font-size: 13px;
+    color:#6E7275;
+    font-family: "Inter", sans-serif;
+   text-align: center;
+
+}
+/* div3______________________________________ */
+
+.sec3>.div3{
+
+    height: 120px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.sec3>h5,b{
+
+    font-size: 18px;
+    font-family: "Sora", sans-serif;
+    color: #293145;
+
+}
+
+.sec3>.div3>p{
+
+    font-size: 13px;
+    color:#6E7275;
+    font-family: "Inter", sans-serif;
+   text-align: center;
+   flex-wrap: wrap;
+
+}
+
+
+/* fim segunda parte_________________________________________ */
+
+.sec4{
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 400px;
+    background-color: #EFF8FF;
+
+}
+
+.sec4>.art3{
+
+
+    width: 470px;
+
+}
+
+.sec4>.art3>h1{
+
+    font-size: 26px;
+    font-family: "Sora", sans-serif;
+    color: #293145;
+
+
+}
+
+.sec4>.art3>p{
+
+
+    font-size: 15px;
+    color:#6E7275;
+    font-family: "Inter", sans-serif;
+
+
+
+}
+.sec4>.art3>img{
+
+    height: 40px;
+}
+
+figure>.img2{
+
+
+    height: 320px;
+    width: 340px;
+    margin-left: 200px;
+
+}
+
+
+/* parte3________________________________________________ */
+
+
+.sec51{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    margin-top: 30px;
+    width: 100%;
+}
+.sec51>.art4>h1{
+
+    font-size: 30px;
+    font-family: "Sora", sans-serif;
+    color: #293145;
+    margin-left: 50px;
+
+
+}
+
+.sec51>.art4>p{
+
+
+    font-size: 13px;
+    color:#6E7275;
+    font-family: "Inter", sans-serif;
+   text-align: center;
+}
+
+/* sec5_____________________________________ */
+
+
+
+.sec5{
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    height: 450px;
+    flex-wrap: wrap;
+
+
+
+}
+
+.sec5>div{
+
+    margin-left: 20px;
+}
+
+
+.div11{
+
+
+    background-color: #EFF8FF;
+    height: 320px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+
+    padding: 16px;
+
+  
+    
+
+
+
+}
+
+.div11>h4{
+
+    
+    font-size: 18px;
+    font-family: "Sora", sans-serif;
+    color: #293145;
+
+   margin: 22px;
+    
+
+}
+
+.div11>span{
+
+    margin-bottom: 30px;
+    font-size: 2em;
+    font-family:"Sora", sans-serif; 
+    color: #293145 ;
+
+}
+
+.div11>p{
+
+    font-size: 13px;
+    color:#6E7275;
+    font-family: "Inter", sans-serif;
+   text-align: center;
+
+   margin-bottom: 20px;
+}
+
+.div11>button{
+
+    background-color: #0F9AFE;
+    color: white;
+     font-family: "Inter", sans-serif;
+     font-size: 12px;
+     height: 25px;
+     width: 140px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 20px;
+     box-shadow: 3px 3px 2px rgba(0, 0, 0,0.135);
+     margin-top: 40px;
+     list-style-type: none;
+
+     
+    margin-bottom: 30px;
+}
+
+/* __________________________________________________ */
+
+.div22{
+
+
+    background-color: #293145;
+    height: 320px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+
+    padding: 16px;
+
+}
+
+.div22>h4{
+
+    
+    font-size: 25px;
+    font-family: "Sora", sans-serif;
+    color: white;
+
+    margin-bottom: 10px;
+
+}
+
+.div22>h3{
+    color: white;
+    margin-bottom: 30px;
+    background-color: #0F9AFE;
+     font-family: "Sora", sans-serif;
+     font-size: 10px;
+     height: 18px;
+     width: 140px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 20px;
+     box-shadow: 3px 3px 2px rgba(0, 0, 0,0.135);
+}
+
+.div22>span{
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-family:"Sora", sans-serif; 
+
+
+color: white;
+
+
+}
+
+.div22>p{
+
+    font-size: 13px;
+    color:#DBDBDB;
+    font-family: "Inter", sans-serif;
+   text-align: center;
+   margin-bottom: 50px;
+
+}
+
+.div22>button{
+
+    background-color: #0F9AFE;
+    color: white;
+     font-family: "Inter", sans-serif;
+     font-size: 12px;
+     height: 25px;
+     width: 140px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 20px;
+     box-shadow: 3px 3px 2px rgba(0, 0, 0,0.135);
+  
+     list-style-type: none;
+
+}
+
+
+/* __________________________________________________________ */
+
+
+.div33{
+
+
+    background-color: #EFF8FF;
+    height: 320px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+
+    padding: 16px;
+
+}
+
+.div33>h4{
+
+    
+    font-size: 18px;
+    font-family: "Sora", sans-serif;
+    color: #293145;
+
+    margin-bottom: 35px;
+    
+
+
+
+
+}
+
+.div33>span{
+    font-size: 2em;
+    color: #293145;
+    margin-bottom: 20px;
+    font-family:"Sora", sans-serif; 
+
+}
+
+.div33>p{
+
+    font-size: 13px;
+    color:#6E7275;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+
+}
+
+.div33>button{
+
+    background-color: #0F9AFE;
+    color: white;
+     font-family: "Inter", sans-serif;
+     font-size: 12px;
+     height: 25px;
+     width: 140px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 20px;
+     box-shadow: 3px 3px 2px rgba(0, 0, 0,0.135);
+     margin-top: 40px;
+     list-style-type: none;
+
+}
+
+.sec6{
+    background-image: url(./assets/images/Group\ 33554.png) ;
+    
+    height: 370px;
+    width: 100%;
+    padding: 30px;
+    flex-direction: column;
+    
+}
+
+.div-section{
+    padding: 10px;
+    display: flex;
+    
+    align-items: center ;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+
+ .botao2{
+    background-color: #0F9AFE;
+    
+    width: 118px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+    font-family:  "Inter", sans-serif;
+    border: none; 
+
+    
+}
+
+ .art5{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    
+}
+
+.art5>h1{
+    font-size: 3em;
+    color: #EFF8FF;
+    font-family: "Sora", sans-serif;
+    margin top: 20px; 
+}
+
+.art5>p{
+    color: #DBDBDB;
+    font-family: "Sora", sans-serif;
+    font-size: 1em; 
+    text-align: center;
+    margin-top: 30px;
+} 
+
+.div4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 500px;
+    margin-top: 30px;
+}
+
+input{
+    height: 40px;
+    border: 0;
+    border-bottom: 2px solid #EFF8FF;
+    width: 260px;
+    background-color: transparent;
+    outline: none;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 20px;
+    font-family:  "Inter", sans-serif;
+}
+
+footer{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+footer>span{
+    display: flex;
+    color: black;
+    font-family: "Sora", sans-serif;
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+@media screen and (max-width: 414px) {
+/*     
+    .container-grid{
+        max-width: 90vw;
+        margin: 0 auto; */
+    }
+    
+    
+    
+    body{
+        
+        max-width: 100vh;
+        height: 3000px;
+        /* overflow-x: hidden; */
+    
+    }
+    
+    header{
+        width: 90%;
+        height: 50px;
+    }
+    
+    
+    .nav-style>ul{
+        
+        height: 400px;
+        width: 100%;
+        background-color: white;
+    
+        transform: translateX(0);
+        transition: all 0.5s ease;
+        border: 2px solid red;
+        position: absolute;
+        top: 20px;
+        ;
+
+    }
+
+    .open{
+        transform: translateX(0%);
+    }
+
+
+    .nav-style>ul>li>a{
+        font-size: 30px;
+    }
+
+    .sec1{
+        /* transform: (0); */
+        width: 100%;
+    
+        transform: translateX(5%);
+    }
+    
+    
+    .sec2{
+        height: 600px;
+        width: 100%;
+
+    }
+    
+    .sec2Content{
+        
+        flex-direction: column;
+    
+    }
+        
+    .sec3{
+        flex-direction: column;
+        height: 500px;
+        gap: 20px;
+    }
+    
+    
+    .sec4{
+        height: 600px;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 20px;
+
+    }
+    .sec4>figure>img{
+        height: 300px;
+        margin-right: 200px;
+    }
+
+    
+    
+    
+    #handleNavbar{
+        background-color: transparent;
+        border: none;
+        position: absolute;
+        right: 14px;
+    }
+    
+    
+    
+    .bi{
+        font-size: 40px;
+    }
+    
+    
+    
+    .sec5{
+        height: 1100px;
+        
+    }
+
+    .sec6 .container-grid{
+        height: 300px;
+        width: 100%;
+    
+    }
+
+    .sec6{
+        width: 100%;
+        height: 450px;
+    }
+
+    .div4{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .botao2{
+        width: 65%;
+    }
+    .input{
+    width: 300px;
+    }
+
+
+    
+
+
+
+}
+    
+
+    
