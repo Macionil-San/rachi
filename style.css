@@ -29,9 +29,6 @@ header{
     
 }
 
-.sec1{
-    transform: translateX(100%);
-}
 
 .nav-style {
     display: flex;
@@ -708,45 +705,53 @@ footer>span{
 }
 
 @media screen and (max-width: 414px) {
-/*     
+    
     .container-grid{
         max-width: 90vw;
-        margin: 0 auto; */
+        margin: 0 auto;
     }
     
     
-    
     body{
-        
-        max-width: 100vh;
+     
         height: 3000px;
-        /* overflow-x: hidden; */
+        overflow-x: hidden;
     
     }
     
     header{
-        width: 90%;
+        width: 100%;
         height: 50px;
     }
     
-    
-    .nav-style>ul{
-        
-        height: 400px;
-        width: 100%;
-        background-color: white;
-    
-        transform: translateX(0);
-        transition: all 0.5s ease;
-        border: 2px solid red;
+    .nav-style {
+        /* right: 0; */
+        left: 0;
+        top: 0;
+        display: block;
         position: absolute;
-        top: 20px;
-        ;
-
+        transform: translateX(110%);
+        width: 90%;
+        height: 80vh;
+        background-color: white;
+        transition: all 0.5s ease;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    
+    .nav-style.open{
+        transform: translateX(11%);
     }
 
-    .open{
-        transform: translateX(0%);
+    .nav-style>ul{
+        height: 100%;
+        width: 100%;
+        font-family: "Sora", sans-serif;;
+        
+    }
+
+    .hidden {
+        display: none;
     }
 
 
@@ -755,10 +760,10 @@ footer>span{
     }
 
     .sec1{
-        /* transform: (0); */
+        height: 100%;
         width: 100%;
-    
-        transform: translateX(5%);
+        display: flex;
+        justify-content: space-between;
     }
     
     
@@ -798,9 +803,11 @@ footer>span{
     
     #handleNavbar{
         background-color: transparent;
-        border: none;
-        position: absolute;
-        right: 14px;
+        border: 2px solid black;
+        height: 100%;
+        width: 50px;
+        display: block;
+        z-index: 40;
     }
     
     
@@ -839,8 +846,6 @@ footer>span{
     .input{
     width: 300px;
     }
-
-
     
 
 
