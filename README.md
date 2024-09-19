@@ -1,5 +1,5 @@
 
- <img align="center" height="270px" width="1000px" src="GHVrppMaoAATZFN.jpg_large" alt="Github stats" />
+
 
  <img align='right' src="https://github.com/Macionil-San/rachi/blob/main/dbzrgxa-96a07b17-1dc4-4a0d-bf10-f5f5150108ad.gif?raw=true" width="230">
 
