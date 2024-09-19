@@ -1,7 +1,7 @@
 
  <img align="center" height="270px" width="1000px" src="GHVrppMaoAATZFN.jpg_large" alt="Github stats" />
 
- <img align='right' src="https://raw.githubusercontent.com/iCharlesZ/FigureBed/master/img/octocat.gif" width="230">
+ <img align='right' src="https://github.com/Macionil-San/rachi/blob/main/dbzrgxa-96a07b17-1dc4-4a0d-bf10-f5f5150108ad.gif?raw=true" width="230">
 
 ### <img src="tumblr_5f0c85c1c346faaaf817269d0ec5530c_2de778b1_500.png" width="50"> A little more about me...  
 
